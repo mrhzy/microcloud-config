@@ -13,6 +13,7 @@ spring:
 
 eureka:
     client:
+        register-with-eureka: false
         service-url:
             defaultZone: http://admin:enjoy@localhost:7001/eureka
 ---
